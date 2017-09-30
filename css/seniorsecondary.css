@@ -1,0 +1,172 @@
+body{
+	overflow-x:hidden;
+}
+.logo-img{
+	text-align: center;
+}
+
+.logo-img img{
+	width: 60%;
+	height: 100px;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 4px;
+
+
+
+}
+
+.logo-text{
+	font-size: 60px;
+	color: #921535;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Concert One', cursive;
+	
+}
+
+
+
+.header-container hr{
+
+	width: 100%;
+	margin: 0px;
+	border: 2px solid;
+	color: #BA3022;
+
+}
+.row{
+	margin-left: -18px;
+	margin-left: 2px;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: white;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn img{
+	width: 50px;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1ECF0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    
+    padding: 18px 22px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #FFFFFF}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+}
+.dropdown-content a{
+		color: #062653;
+	}
+		.dropdown-content a:link{
+			text-decoration: none;
+			color: #062653;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		.dropdown-content a:hover{
+    		color: #062653;
+		}
+
+		.dropdown-content a:visited{
+			color: #062653;
+		}
+
+		.dropdown-content a:active{
+			color: #062653;
+		}
+
+
+		.section-container{
+		text-align: center;
+		padding-top:30px;
+		width: 100vw;
+
+	}
+	
+	.section-heading{
+		font-size: 40px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Lora', serif;
+		color: #BE1339;
+		padding-top: 28px;
+	}
+
+	.section-container hr{
+		border-color: #AA919A;
+	}
+
+	.section-container p{
+		font-size: 20px;
+		color: #616161;
+		font-family: 'PT Sans', sans-serif;
+		color: #211F45;
+		padding-bottom: 10px;
+		color: #C40449;
+	}
+
+	.section-container img{
+		width: 100%;
+		border: 2px;
+		height: 300px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+
+		
+	}
+
+	
+	
+	.hover-border img{
+		width: 100%;
+		border: 3px solid white;
+	}
+
+	.hover-border img:hover{ 
+  		border: 3px solid; 
+  		border-color: #BC76B5;
+	}
